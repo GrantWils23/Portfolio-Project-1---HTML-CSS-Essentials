@@ -8,11 +8,11 @@ I will underline the core concepts of what this website is about below:
 
 
 It will consist of...
-    x "X" amount of pages.
-    a Nav bar to navigate through the pages
-    a reactive display, that welcomes viewing on phones, tablets and desktops
-    display cool and useful infromation
-    
+<br>    x "X" amount of pages.
+<br>    a Nav bar to navigate through the pages
+<br>    a reactive display, that welcomes viewing on phones, tablets and desktops
+<br>    display cool and useful infromation
+
 
 
 
