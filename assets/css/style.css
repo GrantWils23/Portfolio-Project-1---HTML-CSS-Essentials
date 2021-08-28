@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Montserrat , Sans-serif;
+    font-size: 300;
+}
+
+/* heading and logos */
+
+h1 {
+    font-family: "Cardo", cursive;
+    font-weight: 700;
+    font-style: bold;
+    letter-spacing:3px;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: "Cardo", cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    line-height: 160px;
+}
+
+#mini-logo {
+    font-size: 300%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    padding: 10px 10px;
+}
+
+#main-nav {
+    float: right;    
+}
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/importedImage401212_header.webp') no-repeat center center;
+    background-size: cover;
+}
+
+hr {
+    width: 100%;
+    height: 10px;
+}
