@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 body {
     background: seashell;
-    font-family: Montserrat , Sans-serif;
+    font-family: "Crimson Text" , Sans-serif;
     font-size: 300;
 }
 
@@ -16,11 +16,11 @@ body {
 
 h1 {
     font-family: "Cardo", cursive;
-    font-weight: 700;
     font-style: bold;
     letter-spacing:3px;
-    font-size: 90px;
+    font-size: 500%;
     color: #222222;
+    padding: 5px;
 }
 
 h2 {
@@ -28,6 +28,8 @@ h2 {
     letter-spacing: 3px;
     font-size: 50px;
     color: #222222;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 #logo {
@@ -37,38 +39,40 @@ h2 {
 }
 
 #mini-logo {
-    font-size: 300%;
+    padding: 0 7px;
     float: right;
     color: #222222;
     position: relative;
-    padding: 10px 10px 10px 0;
-    top: 30px;
-    right: 15%;
+    right: 3%;
+    top: 20px;
+    border: 3px solid #222222;
+    border-radius: 20%;
+    font-size: 300%;
 }
 
 .menu li {
-    font-size: larger;
+    font-size: 160%;
     color: #222222;
-    list-style: none;
+    list-style:armenian;
     display: inline;
-    padding: 10px 10px;
+    padding: 0 10px;
 }
 
 #main-nav {
+    /* clear: both; */
+    /* overflow: hidden; */
     float: right; 
-    margin-top: 120px;
     position: relative;
-    margin-right: 10px;
-    left: 3%;
+    top: 100px;
+    left: 5%;
+    margin: 0 30px 30px 0;
+
 }
 
 #hero-image {
+    clear: both;
     height: 700px;
     width: 100%;
     background: url('../images/importedImage401212_header.webp') no-repeat center center;
     background-size: cover;
-}
-
-hr {
-    width: 100%;
 }
