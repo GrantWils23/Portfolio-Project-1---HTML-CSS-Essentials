@@ -3,22 +3,26 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
 }
 
 body {
     background: seashell;
     font-family: "Crimson Text" , Sans-serif;
-    font-size: 300;
 }
 
 /* heading and logos */
+
+header {
+    width: 100%;
+    height: 150px;
+}
 
 h1 {
     font-family: "Cardo", cursive;
     font-style: bold;
     letter-spacing:3px;
-    font-size: 500%;
+    font-size: 700%;
     color: #222222;
     padding: 5px;
 }
@@ -28,8 +32,7 @@ h2 {
     letter-spacing: 3px;
     font-size: 50px;
     color: #222222;
-    padding: 5px;
-    margin-left: 20px;
+    border-bottom: 2px solid #222222;
 }
 
 #logo {
@@ -52,21 +55,27 @@ h2 {
 
 .menu li {
     font-size: 160%;
-    color: #222222;
-    list-style:armenian;
+    list-style-type: none;
     display: inline;
+    margin: 1px ;
     padding: 0 10px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    font-weight: bolder;
+}
+
 #main-nav {
-    /* clear: both; */
-    /* overflow: hidden; */
     float: right; 
     position: relative;
     top: 100px;
     left: 5%;
     margin: 0 30px 30px 0;
-
 }
 
 #hero-image {
@@ -75,4 +84,89 @@ h2 {
     width: 100%;
     background: url('../images/importedImage401212_header.webp') no-repeat center center;
     background-size: cover;
+}
+
+#sub-header {
+    width: fit-content;
+    margin: 20px 20px;
+}
+
+#text-top-left {
+    float: left;
+    height: fit-content;
+    width: 45%;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+#text-middle-right {
+    clear: both;
+    float: right;
+    height: fit-content;
+    width: 45%;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+#text-bottom-left {
+    clear: both;
+    float: left;
+    height: fit-content;
+    width: 45%;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+hr {
+    clear: both;
+}
+
+#castle_bar {
+    text-align: center;
+    padding: 30px 5px;
+}
+
+#castle_bar li {
+    font-size: 1.8rem;
+    list-style: none;
+    display: inline;
+    padding: 10px 10px;
+    margin: 1px;
+}
+
+.castle_list {
+    margin: 0 auto;
+}
+
+.castle_list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.castle_list a:hover {
+    border: 1px solid #222222;
+}
+
+#second-main-nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 2%;
+    color: #222222;
+}
+
+footer {
+    width: 100%;
+    background:mistyrose ;
 }
