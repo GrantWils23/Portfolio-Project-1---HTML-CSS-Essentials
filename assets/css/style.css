@@ -147,7 +147,7 @@ li.dropdown {
     float: left;
     height: fit-content;
     width: 45%;
-    margin-left: 20px;
+    margin-left: 2%;
     font-size: 2rem;
 }
 
@@ -156,7 +156,7 @@ li.dropdown {
     float: right;
     height: fit-content;
     width: 45%;
-    margin-right: 20px;
+    margin-right: 2%;
     font-size: 2rem;
 }
 
@@ -165,7 +165,7 @@ li.dropdown {
     float: left;
     height: fit-content;
     width: 45%;
-    margin-left: 20px;
+    margin-left: 2%;
     font-size: 2rem;
 }
 
