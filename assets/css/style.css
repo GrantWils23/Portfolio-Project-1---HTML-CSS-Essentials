@@ -15,13 +15,12 @@ body {
 
 header {
     width: 100%;
-    height: 150px;
+    height: 170px;
 }
 
 h1 {
     font-family: "Cardo", cursive;
-    font-style: bold;
-    letter-spacing:3px;
+    letter-spacing: 3px;
     font-size: 700%;
     color: #222222;
     padding: 5px;
@@ -30,7 +29,7 @@ h1 {
 h2 {
     font-family: "Cardo", cursive;
     letter-spacing: 3px;
-    font-size: 50px;
+    font-size: 300%;
     color: #222222;
     border-bottom: 2px solid #222222;
 }
@@ -38,14 +37,14 @@ h2 {
 #logo {
     float: left;
     margin-left: 20px;
-    line-height: 160px;
+    position: absolute;
 }
 
 #mini-logo {
     padding: 0 7px;
     float: right;
     color: #222222;
-    position: relative;
+    position: absolute;
     right: 3%;
     top: 20px;
     border: 3px solid #222222;
@@ -66,9 +65,9 @@ h2 {
     float: right; 
     position: relative;
     top: 100px;
-    left: 5%;
-    margin: 0 30px 30px 0;
+    left: 2%;
     color: inherit;
+    margin-right: 4%;
 }
 
 /* Dropdown Menu */
@@ -91,7 +90,7 @@ li a, .dropbtn {
     display: inline-block;
     color:#222222;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 10px;
     text-decoration: none;
     border: 1px solid seashell;
 }
@@ -136,6 +135,7 @@ li.dropdown {
     width: 100%;
     background: url('../images/importedImage401212_header.webp') no-repeat center center;
     background-size: cover;
+    background-position-y: 0;
 }
 
 #sub-header {
@@ -211,15 +211,6 @@ hr {
     display: inline-block;
 }
 
-
-menu li .dropdown2 {
-    font-size: 160%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
 #second-main-nav li {
     margin: 0 auto; 
     list-style-type: none;
@@ -266,4 +257,124 @@ footer li a {
 
 .social-networks i:hover {
     color: #111111; 
+}
+
+
+/* Media Queries */
+
+/* Change screen size from larger to Medium size devices from 1363px down" */
+@media screen and (max-width: 1308px) {
+    h1 {font-size: 650%;}
+    #mini-logo {font-size: 250%;}
+}
+
+/* Change screen size from larger to Medium size devices from 1200px down" */
+@media screen and (max-width: 1200px) {
+    header {height: 180px;}
+
+    h1 {font-size: 600%;}
+
+    #main-nav {
+        float: left;
+        margin-top: 30px;
+        position: relative;
+    }
+}
+
+/* Change screen size from larger to Medium from 1000px down */
+@media screen and (max-width: 1000px) {
+    #text-top-left {
+        clear: both;
+        height: fit-content;
+        width: 90%;
+        margin-right: 5%; 
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 1.5rem;
+    }
+    
+    #text-middle-right {
+        clear: both;
+        height: fit-content;
+        width: 90%;
+        margin-right: 5%; 
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 1.5rem;
+    }
+    
+    #text-bottom-left {
+        clear: both;
+        height: fit-content;
+        width: 90%;
+        margin-right: 5%; 
+        margin-left: 5%;
+        margin-bottom: 10%;
+        font-size: 1.5rem;
+    }
+}
+
+/* Change screen size from larger to Medium size devices from 785px down" */
+@media screen and (max-width: 785px) {
+    header {height: 160px;}
+    h1 {font-size: 500%;}
+    #mini-logo {font-size: 200%;}
+    #main-nav {margin-top: 10px;}
+
+    h2 {font-size: 200%;}
+}
+
+/* Change screen size from medium to small size devices from 661px down" */
+@media screen and (max-width: 661px) {
+    header {height: 100px;}
+
+    h1 {font-size: 300%;}
+
+    #mini-logo {font-size: 150%;}
+
+    #main-nav {
+        top: 50px;
+        margin-top: 10px;
+    }
+
+    menu li .dropdown {font-size: 120%;}
+    li a, .dropbtn {font-size: 120%;}
+}
+
+/* Change screen size from medium to small size devices from 441px down" */
+@media screen and (max-width: 441px) {
+    header {height: 180px;}
+
+    h1 {
+        width:300px;
+        font-size: 300%;
+        font-size-adjust: unset;
+    }
+
+    #mini-logo {font-size: 150%;}
+
+    #main-nav {
+        top: 130px;
+        margin-top: 10px;
+    }
+
+    menu li .dropdown {font-size: 120%;}
+    
+    li a, .dropbtn {
+        font-size: 120%;
+        padding: 5px 5px;
+    }
+
+    #hero-image {height: 350px;}
+
+    h2 {font-size: 160%;}
+    #text-top-left {font-size: 1.3rem;}
+    
+    #text-middle-right {font-size: 1.3rem;}
+    
+    #text-bottom-left {font-size: 1.3rem;}
+
+    #second-main-nav li a {font-size: 120%;}
+
+    .social-networks i {font-size: 120%;}
 }
