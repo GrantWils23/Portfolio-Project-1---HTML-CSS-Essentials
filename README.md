@@ -1,5 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+click here to access the site:
+https://grantwils23.github.io/Portfolio-Project-1---HTML-CSS-Essentials/
+
 Welcome to my HTML and CSS main milestone project.
 
 The basis for this project will be: 
