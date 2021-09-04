@@ -133,9 +133,17 @@ li.dropdown {
     clear: both;
     height: 700px;
     width: 100%;
-    background: url('../images/importedImage401212_header.webp') no-repeat center center;
+    background: url('../images/leeds-castle/leeds-7.jpg') no-repeat center center;
     background-size: cover;
-    background-position-y: 0;
+}
+
+/* Image text */
+
+#image-text {
+    font-family: "Crimson text" , sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    position: relative;
 }
 
 #sub-header {
@@ -249,6 +257,7 @@ hr {
 footer {
     width: 100%;
     background:mistyrose ;
+    position: absolute;
 }
 
 footer li a {
@@ -377,4 +386,113 @@ footer li a {
     #second-main-nav li a {font-size: 120%;}
 
     .social-networks i {font-size: 120%;}
+}
+
+/* castle-pages */
+
+
+.castle-title {
+    width: fit-content;
+}
+
+.castle-title hr {
+    border-bottom: 2px solid #222222;
+}
+
+/* castle text and aside image */
+
+.castle-text {
+    float: left;
+    width: 50%;
+    margin-left: 1%;
+    clear: both;
+}
+
+.castle-text p {
+    font-size: 1.7rem;
+}
+
+aside #castle-image-1 {
+    background: url('../images/tower-of-london/tower-of-london-1.jpg') no-repeat center center;
+    background-size: cover;
+    float: right;
+    width: 40%;
+    height:400px;
+    margin-right: 1%;
+    position: relative;
+  }
+
+/* stat-table */
+
+.stat-table {
+    border-color: rgb(235, 154, 96, 0.6);
+    border-style: groove;
+    border-width: 3px;
+    padding: 10px 10px; 
+    float: right;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+
+.stat-table h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.stat-table th {
+    font-size: 1.3rem;
+    width: 60px;
+    text-align: left;
+
+}
+
+.stat-table td {
+    font-size: 1.3rem;
+    width: fit-content;
+}
+
+/* location container */
+
+.locations-box {
+    margin-top: 50px;
+    margin-left: 1%;
+}
+
+.locations-box h3 {
+    width: fit-content;
+    border-bottom: 1px solid #222222;
+    border-spacing: 5px;
+    font-size: 2rem;
+}
+
+.locations-box iframe {
+    width: 45%;
+    height: 300px
+}
+
+/* booking info container */
+
+.booking-info-box{
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 6px;
+}
+
+.booking-info-box h3 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.booking-info-box a {
+    font-size: 1.3rem;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.booking-info-box a:hover {
+    background-color: #222222;
+    color: seashell;
 }
