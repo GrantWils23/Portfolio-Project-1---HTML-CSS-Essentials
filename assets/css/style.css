@@ -417,14 +417,12 @@ footer li a {
     font-size: 1.7rem;
 }
 
-aside #castle-image-1 {
-    background: url('../images/tower-of-london/tower-of-london-1.jpg') no-repeat center center;
-    background-size: cover;
-    float: right;
-    width: 40%;
-    height:400px;
-    margin-right: 1%;
-    position: relative;
+  #castle-image img{
+      float: right;
+      width: 40%;
+      height: 400px;
+      margin-right: 1%;
+      position: relative;
   }
 
 /* stat-table */
@@ -446,14 +444,14 @@ aside #castle-image-1 {
 
 .stat-table th {
     font-size: 1.3rem;
-    width: 60px;
-    text-align: left;
+    width: 80px;
+    text-align: justify;
 
 }
 
 .stat-table td {
     font-size: 1.3rem;
-    width: fit-content;
+    width: 320px;
 }
 
 /* location container */
