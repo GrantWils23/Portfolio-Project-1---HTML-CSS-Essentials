@@ -393,6 +393,11 @@ footer li a {
     .social-networks i {font-size: 120%;}
 }
 
+/* Change screen size from medium to small size devices from 302px down" */
+@media screen and (max-width: 302px) {
+    header {height: 190px;}
+}
+
 /* castle-pages */
 
 
@@ -408,7 +413,7 @@ footer li a {
 
 .castle-text {
     float: left;
-    width: 50%;
+    width: 55%;
     margin-left: 1%;
     clear: both;
 }
@@ -419,11 +424,15 @@ footer li a {
 
   #castle-image img{
       float: right;
-      width: 40%;
+      width: 42%;
       height: 400px;
       margin-right: 1%;
-      position: relative;
+      position: sticky;
   }
+
+#castle-image .image {
+    height: auto;
+}
 
 /* stat-table */
 
@@ -434,7 +443,7 @@ footer li a {
     padding: 10px 10px; 
     float: right;
     margin-top: 30px;
-    margin-right: 10%;
+    margin-right: 1%;
 }
 
 .stat-table h3 {
@@ -445,8 +454,9 @@ footer li a {
 .stat-table th {
     font-size: 1.3rem;
     width: 80px;
-    text-align: justify;
-
+    text-align: left;
+    position: sticky;
+    display: inline-block;
 }
 
 .stat-table td {
@@ -498,4 +508,70 @@ footer li a {
 .booking-info-box a:hover {
     background-color: #222222;
     color: seashell;
+}
+
+
+/* Change screen size from medium to small size devices from 785px down" */
+@media screen and (max-width: 785px) {
+    .castle-text {width: 65%}
+    .castle-text p{font-size: 1.3rem;}
+
+    #castle-image .image{
+        clear: both;
+        width: 98%;
+        padding-top: 30px;
+    }
+
+    .stat-table {
+        width: 60%;
+        margin-top: 30px;
+        margin-right: 1%;
+    }
+    
+    .stat-table h3 {font-size: 1.3rem;}
+    
+    .stat-table th {font-size: 1.1rem;}
+    
+    .stat-table td {font-size: 1.1rem;}
+
+    .locations-box iFrame{width: 90%;}
+}
+
+/* Change screen size from medium to small size devices from 441px down" */
+@media screen and (max-width: 441px) {
+    #castle-image {
+        clear: both;
+        position: Relative;
+        margin-right: 0;
+    }
+
+    /* #castle-image .image {
+        width: 100%;
+    } */
+
+    .castle-text {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .castle-text p{font-size: 1.3rem;}
+
+    .stat-table {
+        width: 80%;
+        margin-top: 30px;
+        margin-right: 3%;
+    }
+    
+    .stat-table h3 {
+        font-size: 1.3rem;
+    }
+    
+    .stat-table th {
+        font-size: 1.1rem;
+    }
+    
+    .stat-table td {
+        font-size: 1.1rem;
+    }
+
 }
