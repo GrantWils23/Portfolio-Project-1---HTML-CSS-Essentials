@@ -581,12 +581,33 @@ footer li a {
 
 
 
-.contact-us {
-    bottom: 300px;
-    display: grid;
-    clear: both;
+#hero-image-contact {
+    max-height: 600px;
+    /* overflow: hidden; */
     background: url(../images/leeds-castle/leeds-5.jpg);
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: 100%;
+
+}
+
+.centered-sub-heading {
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+.contact-us {
+    background-color: rgb(235, 154, 96, 0.1);
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px groove rgb(235, 154, 96, 0.6);
 }
