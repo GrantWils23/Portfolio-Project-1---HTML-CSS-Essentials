@@ -575,3 +575,18 @@ footer li a {
     }
 
 }
+
+
+/* Contact Us */
+
+
+
+.contact-us {
+    bottom: 300px;
+    display: grid;
+    clear: both;
+    background: url(../images/leeds-castle/leeds-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
