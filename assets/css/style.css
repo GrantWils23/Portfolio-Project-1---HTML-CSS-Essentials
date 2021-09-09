@@ -588,6 +588,7 @@ footer li a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
     height: 800px;
     width: 100%;
