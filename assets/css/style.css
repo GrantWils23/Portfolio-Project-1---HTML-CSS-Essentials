@@ -613,6 +613,7 @@ footer li a {
 
 #intro-container {
     margin: 4%;
+    padding: 4px 0;
     display: inline-block;
     max-width: 60%;
 }
@@ -620,18 +621,22 @@ footer li a {
 /* Change screen size from medium to small size devices from 661px down" */
 @media screen and (max-width: 661px) {
     #intro-container{
-        max-width: 80%;
+        max-width: 92%;
     }
 }
 
 #intro-container h3 {
     font-family: "Cardo" cursive;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #222222;
+    width: fit-content;
+    padding: 0 2px;
+    line-height: 13px;
 }
 
 #intro-container p {
     font-family: "Cardo" cursive;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .contact-us {
