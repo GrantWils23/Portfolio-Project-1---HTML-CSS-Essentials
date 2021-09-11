@@ -144,6 +144,12 @@ li.dropdown {
     font-size: 1.2rem;
     margin-left: 10px;
     position: relative;
+    bottom: 30px;
+    color: seashell;
+    background-color: rgb(106, 121, 136, 0.3);
+    max-width: fit-content;
+    padding: 1px 4px;
+
 }
 
 #sub-header {
@@ -609,7 +615,7 @@ footer li a {
     background-color: rgb(235, 154, 96, 0.1);
     position: relative;
     max-width: 60%;
-    height: 600px;
+    height: 560px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -667,7 +673,7 @@ textarea {
     font-family: "Cardo";
     font-weight: bolder;
     font-size: 1.3rem;
-    margin: 10px 1%;
+    margin: 10px 4px;
     border: 1px groove rgb(235, 154, 96, 0.6);
     background-color: rgb(235, 154, 96, 0.6);
     color: #222222;
