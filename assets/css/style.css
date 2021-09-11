@@ -595,6 +595,8 @@ footer li a {
 
 }
 
+/* contact us elements */
+
 .centered-sub-heading {
     width: fit-content;
     text-align: center;
@@ -605,41 +607,118 @@ footer li a {
 
 .contact-us {
     background-color: rgb(235, 154, 96, 0.1);
-    width: 70%;
+    position: relative;
+    max-width: 60%;
     height: 600px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     border: 3px groove rgb(235, 154, 96, 0.6);
+    padding: 20px;
 }
 
 .text-input {
+    display: block;
     background-color: transparent;
     border: 1px groove rgb(235, 154, 96, 0.6);
     color: #222222;
-    width: 40%;
+    min-width: 20%;
+    max-width: 30%;
     height: 25px;
-    margin: 5px 30% 20px 30%;
+    margin: 5px 0 20px;
     border-radius: 2px;
     padding: 2px;
-
-}
-
-textarea {
-    max-width: 500px;
-    max-height: 200px;
-    background-color: transparent;
-    color: #222222;
-    width: 50%;
-    margin: 5px 25% 20px 25%;
-    border-radius: 2px;
-    padding: 2px;
-    border: 1px groove rgb(235, 154, 96, 0.6);
-    padding: 2px;
+    margin: auto;
+    text-align: center;
 }
 
 form label {
+    display:block;
+    position: relative;
     font-size: 1.3rem;
-    margin-left: 30%;
+    text-align: center;
     margin-top: 10px;
 }
+
+textarea {
+    display: block;
+    max-width: 70%;
+    max-height: 200px;
+    background-color: transparent;
+    color: #222222;
+    width: 60%;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+    padding: 2px;
+    border: 1px groove rgb(235, 154, 96, 0.6);
+    padding: 2px;
+    margin: auto;
+}
+
+.button-container {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 4px;
+    font-family: "Cardo";
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: auto;
+    border: 1px groove rgb(235, 154, 96, 0.6);
+    background-color: rgb(235, 154, 96, 0.6);
+    color: #222222;
+}
+
+/* Change screen size from medium to small size devices from 785px down" */
+@media screen and (max-width: 785px) {
+    .contact-us {
+        background-color: rgb(235, 154, 96, 0.1);
+        position: relative;
+        max-width: 70%;
+        height: 600px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 3px groove rgb(235, 154, 96, 0.6);
+        padding: 20px;
+    }
+    
+    .text-input {
+        display: block;
+        background-color: transparent;
+        border: 1px groove rgb(235, 154, 96, 0.6);
+        color: #222222;
+        min-width: 20%;
+        max-width: 30%;
+        height: 25px;
+        margin: 5px 0 20px;
+        border-radius: 2px;
+        padding: 2px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    form label {
+        font-size: 1.1rem;
+    }
+    
+    textarea {
+        display: block;
+        max-width: 70%;
+        max-height: 200px;
+        background-color: transparent;
+        color: #222222;
+        width: 80%;
+        margin: 5px 0 20px;
+        border-radius: 2px;
+        padding: 2px;
+        border: 1px groove rgb(235, 154, 96, 0.6);
+        padding: 2px;
+        margin: auto;
+    }
+    
+    .button {
+        font-size: 1.1rem;
