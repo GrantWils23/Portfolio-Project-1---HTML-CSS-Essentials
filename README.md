@@ -13,6 +13,10 @@ The castle pages will display clear and readable information that will be inters
 
 All pages are to be responsive in design and will incourage the user to come back to the website in the future as the simplistic design should make it appealing and easy on the eye. Below are some of the attached wireframe templates that have been produced on how the website has been designed from day one, this will change ever so slightly over time as I get user feedback from people on what improvements can be made to add in the strength of British-Castles. Where staggered elements are to be displayed in a desktop environment, pages with these elements will respond to small screen sizes by creating a one line dimension principle, so that the elements are not scattered over the screen on a small device.
 
+During the implementation of my contact us form, I realised to make the hero image more dynamic as having a really beautiful picture would of been a waste as a static image. As per my original design i was going to have a background image behind some text describing the reasons for contacting the website. I decided it would be best to write it below the concact us title and above the form as I got user feedback from peoples opinions and it was far more positive with the dynamic image.
+
+I used a lot of resources to help me achieve this site and I found myself constantly going back to <a>w3schools.com</a> and <a>stackeroverflow.com</a>to refresh my mind on how to use divs to help me group the form submit and reset buttons to the center by containing themselves in their own container and then centering that container itself.
+
 Here are some of worked early concept designs that I have from the first Brainstorming session that I have done...
 https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/Wireframes%20base%20templates.pdf
 click above. 
