@@ -588,7 +588,7 @@ footer li a {
 
 
 #hero-image-contact {
-    max-height: 600px;
+    max-height: 650px;
     /* overflow: hidden; */
     background: url(../images/leeds-castle/leeds-5.jpg);
     background-size: cover;
@@ -739,7 +739,7 @@ textarea {
 /* Sign Up page CSS below with elements aquired from above as templates */
 
 #hero-image-sign-up {
-    max-height: 600px;
+    max-height: 650px;
     /* overflow: hidden; */
     background: url(../images/lancaster-castle/lancaster-3.jpg);
     background-size: cover;
@@ -756,7 +756,7 @@ textarea {
     background-color: rgb(235, 154, 96, 0.1);
     position: relative;
     max-width: 60%;
-    height: 560px;
+    height: 700px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -791,11 +791,27 @@ textarea {
 .sign-up .radio-signup-containers label {
     display: inline-block;
     padding: 3px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .radio-signup-containers {
     clear:both;
     display: block;
-    padding: 3px;
+    padding: 2px;
+}
+
+.sign-up select {
+    font-size: 1.2rem; 
+    padding: 2px;
+}
+
+.checkbox-container {
+    max-width: 50%;
+    padding: 2px;
+}
+
+.checkbox-container label {
+    display: inline-block;
+    padding: 2px;
+    margin: 0 3px;
 }
