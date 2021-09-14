@@ -825,7 +825,7 @@ textarea {
     margin-right: 10px;
 }
 
-/* Change screen size from medium to small size devices from 940px down" */
+/* Change screen size from large to medium size devices from 940px down" */
 @media screen and (max-width: 940px) {
     .sign-up-image-element {
         left: auto;
@@ -844,7 +844,7 @@ textarea {
     }
 }
 
-/* Change screen size from medium to small size devices from 940px down" */
+/* Change screen size from medium to small size devices from 591px down" */
 @media screen and (max-width: 591px) {
     .sign-up-image-element {width: 100%;}
 
@@ -855,4 +855,13 @@ textarea {
     .sign-up .radio-signup-containers label {display: block;}
 
     .sign-up {max-width: 70%;}
+    
+    .sign-up label {font-size: 1.1rem;}
+
+    .sign-up select {font-size: 1.1rem;}
+
+    .checkbox-container label {font-size: 1.1rem;}
+
+    .sign-up .radio-signup-containers label {font-size: 1.1rem;}
+
 }
