@@ -846,33 +846,13 @@ textarea {
 
 /* Change screen size from medium to small size devices from 940px down" */
 @media screen and (max-width: 591px) {
-    .sign-up-image-element {
-        width: 100%;
-    }
+    .sign-up-image-element {width: 100%;}
 
-    .sign-up label {
-        clear:both;
-    }
+    .sign-up label {clear: both;}
 
-    .sign-up .text-input {
-        display: block;
-        background-color: transparent;
-        border: 1px groove rgb(235, 154, 96, 0.6);
-        color: #222222;
-        min-width: 80%;
-        max-width: 90%;
-        height: 25px;
-        margin: 5px 0 20px;
-        border-radius: 2px;
-        padding: 2px;
-        text-align: center;
-    }
+    .checkbox-container label {display: block;}
 
-    .checkbox-container label {
-        display: block;
-    }
+    .sign-up .radio-signup-containers label {display: block;}
 
-    .sign-up .radio-signup-containers label {
-        display: block;
-    }
+    .sign-up {max-width: 70%;}
 }
