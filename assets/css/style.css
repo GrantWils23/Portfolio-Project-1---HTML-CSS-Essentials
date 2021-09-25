@@ -602,12 +602,12 @@ footer li a {
     max-width: 80%;
 }
 
-/* Change screen size from medium to small size devices from 661px down"
+/* Change screen size from medium to small size devices from 661px down" */
 @media screen and (max-width: 661px) {
     #intro-container{
         max-width: 92%;
-    } */
-/* } */
+    }
+}
 
 #intro-container h3 {
     font-family: "Cardo" cursive;
@@ -620,6 +620,11 @@ footer li a {
 #intro-container p {
     font-family: "Cardo" cursive;
     font-size: 1.3rem;
+}
+
+#intro-container h3 {
+    text-align: left;
+    border-spacing: initial;
 }
 
 .contact-us {
