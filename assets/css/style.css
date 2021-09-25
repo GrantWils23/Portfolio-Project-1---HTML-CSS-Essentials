@@ -130,11 +130,16 @@ li.dropdown {
 /*  hero image */
 
 #hero-image {
-    clear: both;
-    height: 700px;
-    width: 100%;
-    background: url('../images/leeds-castle/leeds-7.jpg') no-repeat center center;
+    max-height: 675px;
+    /* overflow: hidden; */
+    background: url(../images/leeds-castle/leeds-7.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 800px;
+    width: 100%;
 }
 
 /* Image text */
@@ -571,7 +576,7 @@ footer li a {
 
 
 #hero-image-contact {
-    max-height: 650px;
+    max-height: 675px;
     /* overflow: hidden; */
     background: url(../images/leeds-castle/leeds-5.jpg);
     background-size: cover;
@@ -725,7 +730,7 @@ textarea {
 /* Sign Up page CSS below with elements aquired from above as templates */
 
 #hero-image-sign-up {
-    max-height: 650px;
+    max-height: 675px;
     background: url(../images/lancaster-castle/lancaster-3.jpg);
     background-size: cover;
     background-position: center;
