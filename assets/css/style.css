@@ -593,18 +593,20 @@ footer li a {
 }
 
 #intro-container {
-    margin: 4%;
+    text-align: justify;
+    margin: 0 auto;
     padding: 4px 0;
-    display: inline-block;
-    max-width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 80%;
 }
 
-/* Change screen size from medium to small size devices from 661px down" */
+/* Change screen size from medium to small size devices from 661px down"
 @media screen and (max-width: 661px) {
     #intro-container{
         max-width: 92%;
-    }
-}
+    } */
+/* } */
 
 #intro-container h3 {
     font-family: "Cardo" cursive;
@@ -616,7 +618,7 @@ footer li a {
 
 #intro-container p {
     font-family: "Cardo" cursive;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .contact-us {
@@ -636,8 +638,7 @@ footer li a {
     background-color: transparent;
     border: 1px groove rgb(235, 154, 96, 0.6);
     color: #222222;
-    min-width: 20%;
-    max-width: 30%;
+    width: 28%;
     height: 25px;
     margin: 5px 0 20px;
     border-radius: 2px;
@@ -656,11 +657,10 @@ form label {
 
 textarea {
     display: block;
-    max-width: 70%;
     max-height: 200px;
     background-color: transparent;
     color: #222222;
-    width: 60%;
+    width: 70%;
     margin: 5px 0 20px;
     border-radius: 2px;
     padding: 2px;
@@ -699,16 +699,14 @@ textarea {
     .contact-us {max-width: 70%;}
     
     .text-input {
-        min-width: 40%;
-        max-width: 60%;
-}
+        width: 50%;
+    }
     
     form label {
         font-size: 1.1rem;
     }
     
     textarea {
-        max-width: 70%;
         max-height: 200px;
         width: 80%;
     }
