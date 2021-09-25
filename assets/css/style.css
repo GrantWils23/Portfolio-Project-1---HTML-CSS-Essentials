@@ -8,7 +8,7 @@
 
 body {
     background: seashell;
-    font-family: "Crimson Text" , Sans-serif;
+    font-family: "Crimson Text" , 'Times New Roman', Times, serif;
 }
 
 /* heading and logos */
@@ -140,7 +140,7 @@ li.dropdown {
 /* Image text */
 
 #image-text {
-    font-family: "Crimson text" , sans-serif;
+    font-family: "Crimson text" , 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     margin-left: 10px;
     position: relative;
@@ -696,7 +696,7 @@ textarea {
     display: inline-block;
     letter-spacing: 1px;
     padding: 3px 6px;
-    font-family: "Cardo";
+    font-family: "Cardo", cursive;
     font-weight: bolder;
     font-size: 1.3rem;
     margin: 10px 4px;

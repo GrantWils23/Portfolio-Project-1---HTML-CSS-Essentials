@@ -17,9 +17,24 @@ An informative website on the castles of Great Britain. In this website, the use
 <hr>
 
 <h3>Design style</h3>
-<li>Colour scheme</li>
-<li>Font type</li>
-<li>Images and pictures</li>
+<li><b>Colour scheme</b></li>
+    <ol>
+        <li>The colour scheme chosen are  subtle tones of light Rose and cream colours to give the style  of old parchment paper. the colours settled on are Seashell for the background and mistyrose for the footer. and for signup and contact us "rgb(235, 154, 96)" which is a deeper browner colour to give greater visual differences.</li>
+    </ol>
+<li><b>Font type</b></li>
+    <ol>
+        <li>The font types chosen are Crimson text and Cardo for the text, using google fonts to suggest complimentary fonts. Backup default fonts were chosen in the event that if it doesn't load there is a similar style that two would work well for the webpages.</li>
+    </ol>
+<li><b>Images and pictures</b></li>
+    <ol>
+        <li>Images pictures and placements are important to this project. large hero images offer striking castles to draw the users attantion. The images used are to be dramatic and captivating. Images in the castle pages are modest and take up less space to draw more focus on the body of the text.</li>
+    </ol>
+
+<li><b>Layout</b></li>
+    <ol>
+        <li>The layout of the site is really important. It is designed to give the user a simplistic viewing and retain a uncluttered appeal to the site. helping draw more focus on readability without making the site reading experience to be exhausting. The design is to maximize comfort of the user experience.</li>
+    </ol>
+
 <br>
 <h3>WireFrames</h3>
 <li>Item1 -index.html page (link here)</li>
@@ -110,19 +125,20 @@ An informative website on the castles of Great Britain. In this website, the use
 <h3> Deployment to Github Pages</h3>
     <li>To showcase this project, GitHub pages were used. Steps to deploy to GitHub pages are stated below...</li>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Log into GitHub and locate the GitHub repository.</li>
+        <li>At the top of the repository there is a settings menu, click on that and head to the section labelled pages.</li>
+        <li>Inside the GitHub pages menu, under sources, click into the dropdown and change it from "None" to "Main Branch".</li>
+        <li>Save the changes and the page should automatically refresh. If not, refresh the page.</li>
+        <li>Scroll through the page and locate the new published link in the GitHub pages section.</li>
     </ol>
 <br>
 
 <h3>Forking a Repository</h3>
     <li>Forking the repository allows you to make changes to the files by making a copy of the original whilst we can work on a seperate branch that will not effect the original. The steps to do this are below...</li>
     <ol>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>To fork a repository, go to GitHub and locate the GitHub Repository.</li>
+        <li>In the repository menu, there is a fork button in the top right hand corner. click this button.</li>
+        <li>Now that you have clicked the button, you should have a copy of the repository in your GitHub account.</li>
         <li></li>
     </ol>
 <br>
