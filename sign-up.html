@@ -75,12 +75,18 @@
                         <input type="text" name="surname" id="surname" class="text-input" required>
                         <label>Please select what locations best suit your interest in castles?<label>
                         <div class="radio-signup-containers">
-                            <input name="castle-locations" value="south-great-britain" type="radio">
-                            <label for="castle-locations">South Great Britian</label>
-                            <input name="castle-locations" value="north-great-britain" type="radio">
-                            <label for="castle-locations">North Great Britian</label>
-                            <input name="castle-locations" value="both" type="radio">
-                            <label for="castle-locations">Both</label>
+                            <div class="individual-radio-container">
+                                <input name="castle-locations" value="south-great-britain" type="radio">
+                                <label for="castle-locations">South Great Britian</label>
+                            </div>
+                            <div class="individual-radio-container">
+                                <input name="castle-locations" value="north-great-britain" type="radio">
+                                <label for="castle-locations">North Great Britian</label>
+                            </div>
+                            <div class="individual-radio-container">
+                                <input name="castle-locations" value="both" type="radio">
+                                <label for="castle-locations">Both</label>
+                            </div>
                         </div>
                         <label for="favourite-castle">What is your favourite castle from our site you would like to visit?</label>
                         <select name="favourite-castle" id="favourite-castle">
@@ -94,14 +100,22 @@
                         </select>
                         <label for="content-checkboxes">What content would you like us to send you information about?</label>
                         <div class="checkbox-container">
-                            <input type="checkbox" name="promotions and offers" for="content-checkboxes">
-                            <label for="content-checkboxes">Ticket promotions and offers</label>
-                            <input type="checkbox" name="surveys" for="content-checkboxes">
-                            <label for="content-checkboxes">Surveys</label>
-                            <input type="checkbox" name="monthly-newsletter" for="content-checkboxes">
-                            <label for="content-checkboxes">Monthly Newsletter</label>
-                            <input type="checkbox" name="recommendations" for="content-checkboxes">
-                            <label for="content-checkboxes">Recommendations</label>
+                            <div class="individual-checkbox-container">
+                                <input type="checkbox" name="promotions and offers" for="content-checkboxes">
+                                <label for="content-checkboxes">Ticket Promotions & Offers</label>
+                            </div>
+                            <div  class="individual-checkbox">
+                                <input type="checkbox" name="surveys" for="content-checkboxes">
+                                <label for="content-checkboxes">Surveys</label>
+                            </div>
+                            <div  class="individual-checkbox">
+                                <input type="checkbox" name="monthly-newsletter" for="content-checkboxes">
+                                <label for="content-checkboxes">Monthly Newsletter</label>
+                            </div>
+                            <div  class="individual-checkbox">
+                                <input type="checkbox" name="recommendations" for="content-checkboxes">
+                                <label for="content-checkboxes">Recommendations</label>
+                            </div>
                         </div>
                         <div class="button-container">
                             <input type="submit" value="Sign Up" class="button">

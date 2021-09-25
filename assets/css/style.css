@@ -381,8 +381,9 @@ footer li a {
 }
 
 /* Change screen size from medium to small size devices from 302px down" */
-@media screen and (max-width: 302px) {
-    header {height: 190px;}
+@media screen and (max-width: 280px) {
+    header {height: 218px;}
+
 }
 
 /* castle-pages */
@@ -720,7 +721,6 @@ textarea {
 
 #hero-image-sign-up {
     max-height: 650px;
-    /* overflow: hidden; */
     background: url(../images/lancaster-castle/lancaster-3.jpg);
     background-size: cover;
     background-position: center;
@@ -775,22 +775,31 @@ textarea {
     padding: 2px;
 }
 
+.individual-radio-container {
+    display: inline-block;
+}
+
 .sign-up select {
     font-size: 1.2rem; 
     padding: 2px;
 }
 
 .checkbox-container {
-    max-width: 50%;
     padding: 2px;
 }
 
+.individual-checkbox-container {
+    width: fit-content;
+    height: fit-content;
+}
+
 .checkbox-container label {
+    min-width: max-content;
+    max-width: min-content;
     display: inline-block;
     padding: 2px;
     margin: 0 3px;
 }
-
 
 .sign-up-image-element {
     background-image: url(../images/norham1797.jpg);
@@ -829,10 +838,6 @@ textarea {
     .sign-up-image-element {width: 100%;}
 
     .sign-up label {clear: both;}
-
-    .checkbox-container label {display: block;}
-
-    .sign-up .radio-signup-containers label {display: block;}
 
     .sign-up {max-width: 70%;}
     
