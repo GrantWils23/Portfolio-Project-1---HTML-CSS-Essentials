@@ -153,34 +153,26 @@ li.dropdown {
 }
 
 #sub-header {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#castle-sub-header {
     width: fit-content;
     margin: 20px 20px;
 }
 
-#text-top-left {
-    float: left;
+#text-center-home-page {
+    text-align: justify;
     height: fit-content;
-    width: 45%;
-    margin-left: 2%;
-    font-size: 2rem;
-}
-
-#text-middle-right {
-    clear: both;
-    float: right;
-    height: fit-content;
-    width: 45%;
-    margin-right: 2%;
-    font-size: 2rem;
-}
-
-#text-bottom-left {
-    clear: both;
-    float: left;
-    height: fit-content;
-    width: 45%;
-    margin-left: 2%;
-    font-size: 2rem;
+    position: relative;
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    font-size: 1.8rem;
 }
 
 hr {
@@ -303,26 +295,18 @@ footer li a {
 
 /* Change screen size from larger to Medium from 1000px down */
 @media screen and (max-width: 1000px) {
-    #text-top-left {
-        clear: both;
+    #text-center-home-page{
+        text-align: justify;
         height: fit-content;
-        width: 90%;
-        margin-right: 5%; 
-        margin-left: 5%;
+        position: relative;
+        max-width: 90%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 10%;
         font-size: 1.5rem;
     }
-    
-    #text-middle-right {
-        clear: both;
-        height: fit-content;
-        width: 90%;
-        margin-right: 5%; 
-        margin-left: 5%;
-        margin-bottom: 10%;
-        font-size: 1.5rem;
-    }
-    
+
     #text-bottom-left {
         clear: both;
         height: fit-content;
@@ -388,11 +372,8 @@ footer li a {
     #hero-image {height: 350px;}
 
     h2 {font-size: 160%;}
-    #text-top-left {font-size: 1.3rem;}
-    
-    #text-middle-right {font-size: 1.3rem;}
-    
-    #text-bottom-left {font-size: 1.3rem;}
+
+    #text-center-home-page {font-size: 1.3rem;}
 
     #second-main-nav li a {font-size: 120%;}
 
@@ -418,6 +399,7 @@ footer li a {
 /* castle text and aside image */
 
 .castle-text {
+    text-align: justify;
     float: left;
     width: 55%;
     margin-left: 1%;
