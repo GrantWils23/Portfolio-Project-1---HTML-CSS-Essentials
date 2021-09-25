@@ -393,6 +393,10 @@ footer li a {
 
 /* castle-pages */
 
+#castle-sub-header {
+    width: fit-content;
+    margin-left: 5%;
+}
 
 .castle-title {
     width: fit-content;
@@ -405,11 +409,12 @@ footer li a {
 /* castle text and aside image */
 
 .castle-text {
+    display: flex;
     text-align: justify;
     float: left;
-    width: 55%;
-    margin-left: 1%;
+    width: 90%;
     clear: both;
+    margin-left: 5%;
 }
 
 .castle-text p {
@@ -572,10 +577,7 @@ footer li a {
 
 }
 
-
 /* Contact Us */
-
-
 
 #hero-image-contact {
     max-height: 675px;
