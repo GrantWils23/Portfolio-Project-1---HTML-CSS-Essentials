@@ -409,50 +409,50 @@ footer li a {
 /* castle text and aside image */
 
 .castle-text {
-    display: flex;
     text-align: justify;
-    float: left;
     width: 90%;
-    clear: both;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .castle-text p {
     font-size: 1.7rem;
 }
+/* castle image */
 
-  #castle-image img{
-      float: right;
-      width: 42%;
-      height: 400px;
-      margin-right: 1%;
-      position: sticky;
-  }
-
-#castle-image .image {
+.castle-image {
     height: auto;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    padding: 0px 20px 20px 20px;
 }
 
 /* stat-table */
+
+.stat-table-container {
+    width: 35%;
+    clear: both;
+    float: right;
+    margin-right: 5%;
+    padding: 0px 20px 20px 20px;
+}
 
 .stat-table {
     border-color: rgb(235, 154, 96, 0.6);
     border-style: groove;
     border-width: 3px;
-    padding: 10px 10px; 
-    float: right;
-    margin-top: 30px;
-    margin-right: 1%;
+    padding: 10px 10px;
 }
 
 .stat-table h3 {
-    font-size: 1.5rem;
+    font-size: 1.6vmax;
     text-align: center;
 }
 
 .stat-table th {
-    font-size: 1.3rem;
-    width: 200px;
+    font-size: 1.6vmax;
+    width: 40%;
     padding-bottom: 5px;
     text-align: left;
     position: sticky;
@@ -460,8 +460,8 @@ footer li a {
 }
 
 .stat-table td {
-    font-size: 1.3rem;
-    width: 320px;
+    font-size: 1.6vmax;
+    width: 60%;
 }
 
 /* location container */
@@ -513,69 +513,87 @@ footer li a {
 }
 
 
-/* Change screen size from medium to small size devices from 785px down" */
-@media screen and (max-width: 785px) {
-    .castle-text {width: 65%}
-    .castle-text p{font-size: 1.3rem;}
+/* Change screen size from medium to small size devices from 1284px down" */
+@media screen and (max-width: 1284px) {
+    .castle-image {width: 55%;}
 
-    #castle-image .image{
+    .stat-table-container {
+        width: 40%;
         clear: both;
-        width: 98%;
-        padding-top: 30px;
-    }
-
-    .stat-table {
-        margin-left: 2%;
-        margin-top: 30px;
-        margin-right: 1%;
-    }
-    
-    .stat-table h3 {font-size: 1.3rem;}
-    
-    .stat-table th {
-        font-size: 1.1rem;
-        width: 150px;
-    }
-    
-    .stat-table td {font-size: 1.1rem;}
-
-    .locations-box iFrame{width: 90%;}
-}
-
-/* Change screen size from medium to small size devices from 441px down" */
-@media screen and (max-width: 441px) {
-    #castle-image {
-        clear: both;
-        position: Relative;
-        margin-right: 0;
-    }
-
-    .castle-text {
-        width: 96%;
-        margin-left: 2%;
-    }
-
-    .castle-text p{font-size: 1.3rem;}
-
-    .stat-table {
-        margin-top: 30px;
-        margin-right: 3%;
+        float: right;
+        margin-right: 5%;
+        padding: 0px 20px 20px 20px;
     }
     
     .stat-table h3 {
-        font-size: 1.3rem;
+        font-size: 1.8vmax;
+        text-align: center;
     }
     
     .stat-table th {
-        font-size: 1.1rem;
+        width: 40%;
     }
     
     .stat-table td {
-        font-size: 1.1rem;
-        width: 300px;
+        font-size: 1.8vmax;
+        width: 60%;
+    }
+}
+
+/* Change screen size from medium to small size devices from 1080px down" */
+@media screen and (max-width: 1080px) {
+    .stat-table-container {
+        width: 50%;
+    }
+}
+
+/* Change screen size from medium to small size devices from 800px down" */
+@media screen and (max-width: 800px) {
+    .castle-image {width: 60%;}
+
+    .stat-table-container {width: 55%;}
+}
+
+/* Change screen size from medium to small size devices from 744px down" */
+@media screen and (max-width: 800px) {
+    .castle-image {
+        padding: unset;
+        padding-bottom: 30px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+    .stat-table-container {
+        padding: unset;
+        padding-bottom: 30px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        clear: both;
+        font-size: 1.2vmax;
+    }
 }
+
+
+/* Change screen size from medium to small size devices from 451px down" */
+@media screen and (max-width: 451px) {
+    .castle-text p{font-size: 1.4rem;}
+
+    .stat-table h3 {
+        font-size: 1.4vmax;
+    }
+    
+    .stat-table th {
+        font-size: 1.2vmax;
+    }
+    
+    .stat-table td {
+        font-size: 1.2vmax;
+        width: 60%;
+    }
+}
+
 
 /* Contact Us */
 
