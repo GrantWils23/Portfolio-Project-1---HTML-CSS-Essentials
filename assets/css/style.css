@@ -463,19 +463,21 @@ footer li a {
 
 .locations-box {
     margin-top: 50px;
-    margin-left: 1%;
+    text-align: center;
+    
 }
 
 .locations-box h3 {
-    width: fit-content;
-    border-bottom: 1px solid #222222;
     border-spacing: 5px;
     font-size: 2rem;
+    text-align: center;
 }
 
 .locations-box iframe {
-    width: 45%;
-    height: 300px
+    width: 80%;
+    height: 400px;
+    background-color: rgb(235, 154, 96, 0.6);
+    padding: 3px;
 }
 
 /* booking info container */
