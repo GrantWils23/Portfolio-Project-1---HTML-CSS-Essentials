@@ -435,7 +435,7 @@ footer li a {
     clear: both;
     float: right;
     position: relative;
-    padding: 30px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     border-color: rgb(235, 154, 96, 0.6);
     border-style: groove;
     border-width: 3px;
@@ -443,7 +443,8 @@ footer li a {
 }
 
 .stat-table-container h3 {
-    font-size: 1.6vmax;
+    margin-top: 5px;
+    font-size: 2.1vmax;
     text-align: center;
 }
 
@@ -515,34 +516,17 @@ footer li a {
 /* Change screen size from medium to small size devices from 1284px down" */
 @media screen and (max-width: 1284px) {
     .castle-image {width: 55%;}
-
-    .stat-table-container {
-        width: 40%;
-        clear: both;
-        float: right;
-        margin-right: 5%;
-        padding: 0px 20px 20px 20px;
-    }
     
-    .stat-table h3 {
-        font-size: 1.8vmax;
-        text-align: center;
-    }
+    .stat-table th {width: 40%;}
     
-    .stat-table th {
-        width: 40%;
-    }
-    
-    .stat-table td {
-        font-size: 1.8vmax;
-        width: 60%;
-    }
+    .stat-table td {width: 60%;}
 }
 
 /* Change screen size from medium to small size devices from 1080px down" */
 @media screen and (max-width: 1080px) {
     .stat-table-container {
         width: 50%;
+        font-size: 2.0vmax;
     }
 }
 
@@ -554,7 +538,7 @@ footer li a {
 }
 
 /* Change screen size from medium to small size devices from 744px down" */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 744px) {
     .castle-image {
         padding: unset;
         padding-bottom: 30px;
@@ -565,13 +549,20 @@ footer li a {
 
     .stat-table-container {
         padding: unset;
-        padding-bottom: 30px;
+        padding-bottom: 5px;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         clear: both;
-        font-size: 1.2vmax;
     }
+    .stat-table-container h3 {font-size: 3.1vmax;}
+    
+    .stat-table th {
+        font-size: 2.2vmax;
+        padding-left: 5px;
+    }
+    
+    .stat-table td {font-size: 2.2vmax;}
 }
 
 
@@ -579,23 +570,24 @@ footer li a {
 @media screen and (max-width: 451px) {
     .castle-text p{font-size: 1.3rem;}
 
-    .stat-table h3 {
-        font-size: 1.9vmax;
-    }
+    .stat-table-container h3 {font-size: 2.1vmax;}
     
-    .stat-table th {
-        font-size: 1.9vmax;
-    }
+    .stat-table th {font-size: 1.6vmax;}
     
-    .stat-table td {
-        font-size: 1.9vmax;
-        width: 60%;
-    }
+    .stat-table td {font-size: 1.6vmax;}
 }
 
-/* Change screen size from medium to small size devices from 320px down" */
-@media screen and (max-width: 320px) {
+/* Change screen size from medium to small size devices from 300px down" */
+@media screen and (max-width: 300px) {
     .castle-text p{font-size: 1.2rem;}
+
+    .stat-table th {
+        font-size: 1.7vmax;
+        width: 60%;
+        word-wrap: break-word;
+    }
+    
+    .stat-table td {font-size: 1.7vmax;}
 }
 
 /* Contact Us */
