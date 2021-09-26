@@ -457,6 +457,8 @@ footer li a {
     text-align: left;
     position: sticky;
     display: inline-block;
+    word-wrap:normal;
+    height: auto;
 }
 
 .stat-table td {
@@ -578,22 +580,26 @@ footer li a {
 
 /* Change screen size from medium to small size devices from 451px down" */
 @media screen and (max-width: 451px) {
-    .castle-text p{font-size: 1.4rem;}
+    .castle-text p{font-size: 1.3rem;}
 
     .stat-table h3 {
-        font-size: 1.4vmax;
+        font-size: 1.9vmax;
     }
     
     .stat-table th {
-        font-size: 1.2vmax;
+        font-size: 1.9vmax;
     }
     
     .stat-table td {
-        font-size: 1.2vmax;
+        font-size: 1.9vmax;
         width: 60%;
     }
 }
 
+/* Change screen size from medium to small size devices from 320px down" */
+@media screen and (max-width: 320x) {
+    .castle-text p{font-size: 1.2rem;}
+}
 
 /* Contact Us */
 
@@ -731,22 +737,16 @@ textarea {
 @media screen and (max-width: 785px) {
     .contact-us {max-width: 70%;}
     
-    .text-input {
-        width: 50%;
-    }
+    .text-input {width: 50%;}
     
-    form label {
-        font-size: 1.1rem;
-    }
+    form label {font-size: 1.1rem;}
     
     textarea {
         max-height: 200px;
         width: 80%;
     }
     
-    .button {
-        font-size: 1.1rem;
-    }
+    .button {font-size: 1.1rem;}
 }
 
 /* Sign Up page CSS below with elements aquired from above as templates */
@@ -816,9 +816,7 @@ textarea {
     padding: 2px;
 }
 
-.checkbox-container {
-    padding: 2px;
-}
+.checkbox-container {padding: 2px;}
 
 .individual-checkbox-container {
     width: fit-content;
@@ -855,9 +853,7 @@ textarea {
         display:  fixed;
     }
 
-    .sign-up label {
-        clear:both;
-    }
+    .sign-up label {clear:both;}
 
     .sign-up .text-input {
         min-width: 80%;
