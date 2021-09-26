@@ -444,12 +444,12 @@ footer li a {
 
 .stat-table-container h3 {
     margin-top: 5px;
-    font-size: 2.1vmax;
+    font-size: 2vmax;
     text-align: center;
 }
 
 .stat-table th {
-    font-size: 1.6vmax;
+    font-size: 1.4vmax;
     width: 40%;
     padding-bottom: 5px;
     text-align: left;
@@ -460,7 +460,7 @@ footer li a {
 }
 
 .stat-table td {
-    font-size: 1.6vmax;
+    font-size: 1.4vmax;
     width: 60%;
 }
 
@@ -528,6 +528,13 @@ footer li a {
         width: 50%;
         font-size: 2.0vmax;
     }
+
+    
+    .stat-table-container h3 {font-size: 2.3vmax;}
+    
+    .stat-table th {font-size: 1.8vmax;}
+    
+    .stat-table td {font-size: 1.8vmax;}
 }
 
 /* Change screen size from medium to small size devices from 800px down" */
