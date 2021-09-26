@@ -104,7 +104,7 @@ An informative website on the castles of Great Britain. In this website, the use
 
 <h3> Responsive Testing</h3>
 <ul>
-    <li>Responsive design was tested across multiple platforms to ensure smooth compatability between major, popular browsers such as Google Chrome, Internet Explorer, Microsoft Edge and Safari.</li>
+    <li>Responsive design was tested across multiple platforms to ensure smooth compatability between major, popular browsers such as Google Chrome, Microsoft Edge, Samsung Internet and Safari.</li>
     <li>The website was viewed on many devices using developer tools on Chrome to check page reacting to JQueries screen sizes varying from Desktop, Ipad Pro, Samsung and Iphone model phones</li>
     <li>Links Where checked extensively to make sure all links work correctly and that any external source links open outside of the page.</li>
     <li>Friends and family helped implement the design and gave constructive critisism on how to improve the page and to notify me of any bugs they came across during their experience with the website</li>
