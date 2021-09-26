@@ -689,6 +689,7 @@ form label {
     font-size: 1.3rem;
     text-align: center;
     margin-top: 10px;
+    padding: 0 5px;
 }
 
 textarea {
@@ -771,6 +772,11 @@ textarea {
     margin-bottom: 50px;
     border: 3px groove rgb(235, 154, 96, 0.6);
     padding: 20px;
+}
+
+.sign-up p {
+    font-size: 1.3rem;
+    padding: 10px 0;
 }
 
 .sign-up label {
@@ -862,6 +868,8 @@ textarea {
     .sign-up-image-element {width: 100%;}
 
     .sign-up label {clear: both;}
+
+    .sign-up p {font-size: 1.1rem;}
 
     .sign-up {max-width: 70%;}
     
