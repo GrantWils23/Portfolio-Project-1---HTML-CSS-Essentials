@@ -597,7 +597,7 @@ footer li a {
 }
 
 /* Change screen size from medium to small size devices from 320px down" */
-@media screen and (max-width: 320x) {
+@media screen and (max-width: 320px) {
     .castle-text p{font-size: 1.2rem;}
 }
 
@@ -643,7 +643,7 @@ footer li a {
 }
 
 #intro-container h3 {
-    font-family: "Cardo" cursive;
+    font-family: "Cardo", cursive;
     font-size: 1.7rem;
     border-bottom: 1px solid #222222;
     width: fit-content;
@@ -651,7 +651,7 @@ footer li a {
 }
 
 #intro-container p {
-    font-family: "Cardo" cursive;
+    font-family: "Cardo", cursive;
     font-size: 1.3rem;
 }
 
@@ -850,7 +850,6 @@ textarea {
         left: auto;
         float: left;
         position: relative;
-        display:  fixed;
     }
 
     .sign-up label {clear:both;}
