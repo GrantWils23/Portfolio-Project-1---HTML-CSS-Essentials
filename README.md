@@ -2,6 +2,9 @@
 
 <hr>
 
+![British Castles](https://user-images.githubusercontent.com/72948843/134823311-e158bd8c-35ee-4fdb-aacf-9a27f1c6523b.jpg)
+
+
 click here to access the site:
 https://grantwils23.github.io/Portfolio-Project-1---HTML-CSS-Essentials/
 
@@ -37,8 +40,12 @@ An informative website on the castles of Great Britain. In this website, the use
 
 <br>
 <h3>WireFrames</h3>
-<li>Item1 -index.html page (link here)</li>
-<li>Item2 -index.html page (link here)</li>
+<li>index.html (mobile page) - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/images/wireframes/british-castles-index-mobile.jpg">link here</a></li>
+<li>index.html page (desktop page) - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/images/wireframes/british-castles-index.jpg">link here</a></li>
+<li>castles.html page (castle pages) - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/images/wireframes/castle-pages-british-castles.jpg">link here</a></li>
+<li>contact-us.html page (desktop page) - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/images/wireframes/contact-us-british-castles.jpg">link here</a></li>
+<li>sign-up.html page (desktop page) - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/images/wireframes/sign-up-british-castles.jpg">link here</a></li>
+
 
 <br>
 
