@@ -94,10 +94,10 @@ An informative website on the castles of Great Britain. In this website, the use
 
 <h2>Testing</h2>
 <hr>
-<p>To test the code and make sure there were no errors, I ran the CSS and HTML through W3C Markup Validator and W3C CSS Validator service. The results can be found below.</p>
+<p>To test the code and make sure there were no errors, I ran the CSS and HTML through W3C Markup Validator and W3C CSS Validator service. I input the raw text into the pages below and the URLs too upon completion.</p>
 <ul>
-    <li><a>fill in 1</a></li>
-    <li><a>fill in 2</a></li>
+    <li><a href="http://jigsaw.w3.org/css-validator/validator$link" target="_blank">W3C Validator CSS</a></li>
+    <li><a href="https://validator.w3.org/nu/" target="_blank">W3C Validator HTML</a></li>
 </ul>
 
 <br>
