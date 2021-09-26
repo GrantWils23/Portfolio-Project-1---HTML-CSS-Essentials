@@ -118,8 +118,8 @@ All pages are to be responsive in design and will incourage the user to come bac
 <hr>
 <p>To test the code and make sure there were no errors, I ran the CSS and HTML through W3C Markup Validator and W3C CSS Validator service. I input the raw text into the pages below and the URLs too upon completion.</p>
 <ul>
-    <li><a href="http://jigsaw.w3.org/css-validator/validator$link" target="_blank">W3C Validator CSS</a></li>
-    <li><a href="https://validator.w3.org/nu/" target="_blank">W3C Validator HTML</a></li>
+    <li><a href="http://jigsaw.w3.org/css-validator/validator$link" target="_blank">W3C Validator CSS</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-css-validator-results.pdf">results here</a></li>
+    <li><a href="https://validator.w3.org/nu/" target="_blank">W3C Validator HTML</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-html-validator-index-page-results.pdf">results here</a></li>
 </ul>
 
 <br>
