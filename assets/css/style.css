@@ -131,7 +131,6 @@ li.dropdown {
 
 #hero-image {
     max-height: 675px;
-    /* overflow: hidden; */
     background: url(../images/leeds-castle/leeds-7.jpg);
     background-size: cover;
     background-position: center;
@@ -281,15 +280,23 @@ footer li a {
 
 /* Change screen size from larger to Medium size devices from 1363px down" */
 @media screen and (max-width: 1308px) {
-    h1 {font-size: 650%;}
-    #mini-logo {font-size: 250%;}
+    h1 {
+        font-size: 650%;
+    }
+    #mini-logo {
+        font-size: 250%;
+    }
 }
 
 /* Change screen size from larger to Medium size devices from 1200px down" */
 @media screen and (max-width: 1200px) {
-    header {height: 180px;}
+    header {
+        height: 180px;
+    }
 
-    h1 {font-size: 600%;}
+    h1 {
+        font-size: 600%;
+    }
 
     #main-nav {
         float: left;
@@ -325,34 +332,57 @@ footer li a {
 
 /* Change screen size from larger to Medium size devices from 785px down" */
 @media screen and (max-width: 785px) {
-    header {height: 160px;}
-    h1 {font-size: 500%;}
-    #mini-logo {font-size: 200%;}
-    #main-nav {margin-top: 10px;}
+    header {
+        height: 160px;
+    }
+    h1 {
+        font-size: 500%;
+    }
+    #mini-logo {
+        font-size: 200%;
+    }
+    #main-nav {
+        margin-top: 10px;
+    }
 
-    h2 {font-size: 200%;}
+    h2 {
+        font-size: 200%;
+    }
 }
 
 /* Change screen size from medium to small size devices from 661px down" */
 @media screen and (max-width: 661px) {
-    header {height: 100px;}
+    header {
+        height: 100px;
+    }
 
-    h1 {font-size: 300%;}
+    h1 {
+        font-size: 300%;
+    }
 
-    #mini-logo {font-size: 150%;}
+    #mini-logo {
+        font-size: 150%;
+    }
 
     #main-nav {
         top: 50px;
         margin-top: 10px;
     }
 
-    menu li .dropdown {font-size: 120%;}
-    li a, .dropbtn {font-size: 120%;}
+    menu li .dropdown {
+        font-size: 120%;
+    }
+
+    li a, .dropbtn {
+        font-size: 120%;
+    }
 }
 
 /* Change screen size from medium to small size devices from 441px down" */
 @media screen and (max-width: 441px) {
-    header {height: 180px;}
+    header {
+        height: 180px;
+    }
 
     h1 {
         width:300px;
@@ -360,35 +390,48 @@ footer li a {
         font-size-adjust: unset;
     }
 
-    #mini-logo {font-size: 150%;}
+    #mini-logo {
+        font-size: 150%;
+    }
 
     #main-nav {
         top: 130px;
         margin-top: 10px;
     }
 
-    menu li .dropdown {font-size: 120%;}
+    menu li .dropdown {
+        font-size: 120%;
+    }
     
     li a, .dropbtn {
         font-size: 120%;
         padding: 5px 5px;
     }
 
-    #hero-image {height: 350px;}
+    #hero-image {
+        height: 350px;
+    }
 
-    h2 {font-size: 160%;}
+    h2 {
+        font-size: 160%;
+    }
 
-    #text-center-home-page {font-size: 1.3rem;}
+    #text-center-home-page {
+        font-size: 1.3rem;
+    }
 
-    #second-main-nav li a {font-size: 120%;}
+    #second-main-nav li a {
+        font-size: 120%;
+    }
 
-    .social-networks i {font-size: 120%;}
+    .social-networks i {
+        font-size: 120%;
+    }
 }
 
 /* Change screen size from medium to small size devices from 302px down" */
 @media screen and (max-width: 280px) {
     header {height: 218px;}
-
 }
 
 /* castle-pages */
@@ -418,6 +461,7 @@ footer li a {
 .castle-text p {
     font-size: 1.7rem;
 }
+
 /* castle image */
 
 .castle-image {
@@ -515,11 +559,17 @@ footer li a {
 
 /* Change screen size from medium to small size devices from 1284px down" */
 @media screen and (max-width: 1284px) {
-    .castle-image {width: 55%;}
+    .castle-image {
+        width: 55%;
+    }
     
-    .stat-table th {width: 40%;}
+    .stat-table th {
+        width: 40%;
+    }
     
-    .stat-table td {width: 60%;}
+    .stat-table td {
+        width: 60%;
+    }
 }
 
 /* Change screen size from medium to small size devices from 1080px down" */
@@ -530,18 +580,28 @@ footer li a {
     }
 
     
-    .stat-table-container h3 {font-size: 2.3vmax;}
+    .stat-table-container h3 {
+        font-size: 2.3vmax;
+    }
     
-    .stat-table th {font-size: 1.8vmax;}
+    .stat-table th {
+        font-size: 1.8vmax;
+    }
     
-    .stat-table td {font-size: 1.8vmax;}
+    .stat-table td {
+        font-size: 1.8vmax;
+    }
 }
 
 /* Change screen size from medium to small size devices from 800px down" */
 @media screen and (max-width: 800px) {
-    .castle-image {width: 60%;}
+    .castle-image {
+        width: 60%;
+    }
 
-    .stat-table-container {width: 55%;}
+    .stat-table-container {
+        width: 55%;
+    }
 }
 
 /* Change screen size from medium to small size devices from 744px down" */
@@ -569,24 +629,35 @@ footer li a {
         padding-left: 5px;
     }
     
-    .stat-table td {font-size: 2.2vmax;}
+    .stat-table td {
+        font-size: 2.2vmax;
+    }
 }
-
 
 /* Change screen size from medium to small size devices from 451px down" */
 @media screen and (max-width: 451px) {
-    .castle-text p{font-size: 1.3rem;}
+    .castle-text p{
+        font-size: 1.3rem;
+    }
 
-    .stat-table-container h3 {font-size: 2.1vmax;}
+    .stat-table-container h3 {
+        font-size: 2.1vmax;
+    }
     
-    .stat-table th {font-size: 1.6vmax;}
+    .stat-table th {
+        font-size: 1.6vmax;
+    }
     
-    .stat-table td {font-size: 1.6vmax;}
+    .stat-table td {
+        font-size: 1.6vmax;
+    }
 }
 
 /* Change screen size from medium to small size devices from 300px down" */
 @media screen and (max-width: 300px) {
-    .castle-text p{font-size: 1.2rem;}
+    .castle-text p{
+        font-size: 1.2rem;
+    }
 
     .stat-table th {
         font-size: 1.7vmax;
@@ -594,14 +665,15 @@ footer li a {
         word-wrap: break-word;
     }
     
-    .stat-table td {font-size: 1.7vmax;}
+    .stat-table td {
+        font-size: 1.7vmax;
+    }
 }
 
 /* Contact Us */
 
 #hero-image-contact {
     max-height: 675px;
-    /* overflow: hidden; */
     background: url(../images/leeds-castle/leeds-5.jpg);
     background-size: cover;
     background-position: center;
@@ -732,18 +804,26 @@ textarea {
 
 /* Change screen size from medium to small size devices from 785px down" */
 @media screen and (max-width: 785px) {
-    .contact-us {max-width: 70%;}
+    .contact-us {
+        max-width: 70%;
+    }
     
-    .text-input {width: 50%;}
+    .text-input {
+        width: 50%;
+    }
     
-    form label {font-size: 1.1rem;}
+    form label {
+        font-size: 1.1rem
+        ;}
     
     textarea {
         max-height: 200px;
         width: 80%;
     }
     
-    .button {font-size: 1.1rem;}
+    .button {
+        font-size: 1.1rem;
+    }
 }
 
 /* Sign Up page CSS below with elements aquired from above as templates */
@@ -818,7 +898,9 @@ textarea {
     padding: 2px;
 }
 
-.checkbox-container {padding: 2px;}
+.checkbox-container {
+    padding: 2px;
+}
 
 .individual-checkbox-container {
     width: fit-content;
@@ -854,7 +936,9 @@ textarea {
         position: relative;
     }
 
-    .sign-up label {clear:both;}
+    .sign-up label {
+        clear:both;
+    }
 
     .sign-up .text-input {
         min-width: 80%;
@@ -864,20 +948,36 @@ textarea {
 
 /* Change screen size from medium to small size devices from 591px down" */
 @media screen and (max-width: 591px) {
-    .sign-up-image-element {width: 100%;}
+    .sign-up-image-element {
+        width: 100%;
+    }
 
-    .sign-up label {clear: both;}
+    .sign-up label {
+        clear: both;
+    }
 
-    .sign-up p {font-size: 1.1rem;}
+    .sign-up p {
+        font-size: 1.1rem;
+    }
 
-    .sign-up {max-width: 70%;}
+    .sign-up {
+        max-width: 70%;
+    }
     
-    .sign-up label {font-size: 1.1rem;}
+    .sign-up label {
+        font-size: 1.1rem;
+    }
 
-    .sign-up select {font-size: 1.1rem;}
+    .sign-up select {
+        font-size: 1.1rem;
+    }
 
-    .checkbox-container label {font-size: 1.1rem;}
+    .checkbox-container label {
+        font-size: 1.1rem;
+    }
 
-    .sign-up .radio-signup-containers label {font-size: 1.1rem;}
+    .sign-up .radio-signup-containers label {
+        font-size: 1.1rem;
+    }
 
 }
