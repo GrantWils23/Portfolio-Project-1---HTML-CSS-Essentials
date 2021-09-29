@@ -121,31 +121,31 @@ These will remain consistent throughout the website.
 <h2>Framework, Libaries & Programs Used</h2>
 <hr>
 <ol>
-    <li><a href="">Hover.css</a></li>
+    <li><a href="https://www.w3schools.com/cssref/sel_hover.asp">Hover.css</a></li>
     <ul>
         <li>Hover.css was used to create some interactive elements to the styling of the website to provide users visual suggestions as their cursor passes over an interactive element.</li>
     </ul>
-    <li><a href="">Google Fonts</a></li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
     <ul>
         <li>Google Fonts was used to obtain the fonts that would form the visual and asthetic appeal of the website, importing "Crimson text" and "Cardo" from its libary.</li>
     </ul>
-    <li><a href="">Git</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
     <ul>
         <li>Git was used for version control during the implemenation and changes that occured during the websites design by adding, commiting and pushing the files to Github.</li>
     </ul>
-        <li><a href="">GitHub</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
     <ul>
         <li>GitHub was used as the staging ground for the project where the website page will be published and accessible as the storing place for the all the files.</li>
     </ul>
-        <li><a href="">GitPod</a></li>
+        <li><a href="https://gitpod.io/workspaces">GitPod</a></li>
     <ul>
         <li>GitPod was used as the main source to working on the project writing the code and pushing the files to GitHub via Git.</li>
     </ul>
-        <li><a href="">JQuery</a></li>
+        <li><a href="https://jquery.com/">JQuery</a></li>
     <ul>
         <li>JQuery was used to add responsive screen size issues between devices by making it compatible for most devices and broswers.</li>
     </ul>
-        <li><a href="">Balsamiq</a></li>
+        <li><a href="https://balsamiq.com/">Balsamiq</a></li>
     <ul>
         <li>Balsamiq was used to create the first initial designs for the templates on how the page should look.</li>
     </ul>
@@ -159,22 +159,25 @@ These will remain consistent throughout the website.
 <ul>
     <li><a href="http://jigsaw.w3.org/css-validator/validator$link" target="_blank">W3C Validator CSS</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-css-validator-results.pdf">results here</a></li>
     <li><a href="https://validator.w3.org/nu/" target="_blank">W3C Validator HTML</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-html-validator-index-page-results.pdf">results here</a></li>
+    <li><a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/html-validator-castle-page-sampled-cardiff.pdf">Castle pages html results</a> - (Sampled results from Cardiff castle page)</li>
+    <li><a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/html-validator-contact-us-page.pdf">Contact Us page html results</a></li>
+    <li><a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/html-validator-sign-up-page.pdf">Sign Up page html results</a></li>
 </ul>
-
-<br>
-
-<h3>Testing User Stories</h3>
-<h4>First Time User</h4>
-<p>As a user </p>
 
 <br>
 
 <h3> Responsive Testing</h3>
 <ul>
     <li>Responsive design was tested across multiple platforms to ensure smooth compatability between major, popular browsers such as Google Chrome, Microsoft Edge, Samsung Internet and Safari.</li>
-    <li>The website was viewed on many devices using developer tools on Chrome to check page reacting to JQueries screen sizes varying from Desktop, Ipad Pro, Samsung and Iphone model phones</li>
+    <li>The website was viewed on many devices using developer tools on Chrome to check page reacting to JQueries screen sizes varying from Desktop, Ipad Pro, Samsung and Iphone model phones.</li>
+    <li>Checked the Nav bar moves responsively according to screen size to ensure the user gets the most out of the screen space.</li>
     <li>Links Where checked extensively to make sure all links work correctly and that any external source links open outside of the page.</li>
-    <li>Friends and family helped implement the design and gave constructive critisism on how to improve the page and to notify me of any bugs they came across during their experience with the website</li>
+    <li>checked the responsive nature of the wrapround text to ensure fluid design without any elements getting thrown accorss the screen or bugs in code that causes unwanted results</li>
+    <li>Friends and family helped implement the design and gave constructive critisism on how to improve the page and to notify me of any bugs they came across during their experience with the website.</li>
+    <li>Checking the shape responsiveness when altering the window size on a desktop to ensure fluid movement and no breakdown in the design across all the pages.</li>
+    <li>Same checks done on multiple devices such as tablets and phones.</li>
+    <li>Checked all the internal links on the website to ensure there are no breaks and all pages are accessible.</li>
+    <li>Checked the buttons in the sign up and contact us pages to ensure that the buttons work correctly and that the submit buttons cannot send without certain required elements being checked.</li>
 </ul>
 
 <br>
@@ -182,7 +185,9 @@ These will remain consistent throughout the website.
 <h2>Known Bugs</h2>
 <ul>
     <li>The Iframes that appear in the castle pages refuse to connect from Google Maps Creating a gray window of an uninteractive window - element was fixed by embedding the iframe tag rather than using the google maps link.</li>
-    <li>Internet Explorer doesn't support some of of the CSS3 features creating a less user friendly experience on this browser.</li>
+    <li>Internet Explorer doesn't support some of of the CSS3 features creating a less user friendly experience on this browser. The page looses much of its shape and performance due to a large number of CSS features not being supported by an older browser.</li>
+    <li>On a mobile phone device, there is a slight juddering of the hero images on the scrolling from down the page. Could not find a solution to the problem but is a minute issue that requires further investigation.</li>
+    <li>There was a bug that appears momentarily during the loading phase of the files where it writes out a console error of could not obtain favicon... "https://grantwils23.github.io/favicon.ico". - After reading up on it, it appears to be a loading error. after refreshing the page the problem clears.</li>
 </ul>
 
 <br>
