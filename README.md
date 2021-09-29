@@ -7,6 +7,7 @@
 ![British Castles](https://user-images.githubusercontent.com/72948843/134823311-e158bd8c-35ee-4fdb-aacf-9a27f1c6523b.jpg)
 ![british-castles-contact-us-real-image](https://user-images.githubusercontent.com/72948843/134823729-a9b09687-a6b9-479d-98a7-4effb83acde6.jpg)
 ![british-castles-sign-up-form-real-image](https://user-images.githubusercontent.com/72948843/134823732-b1324225-faa7-40c4-afe7-0c0a422f2576.jpg)
+<p>Images taken from the website desktop version</p>
 
 <br>
 
@@ -20,10 +21,6 @@ The basis for this project will be:
 An informative website on the castles of Great Britain. In this website, the user will be able to explore from a range of seven beuatiful castles of the UK which can be naviagated from the the top "from a dropdown menu" and "at the bottom with the castles listed out" of the index.html file. This website will serve as a place for people interested in casstles who want to learn more about these castles and see what they have to offer. There will also be a "contact us" form for people who wish to get in touch with us with any general enquiries and also we will have a Sign Up form that will be there for people who wish to sign up to reciever discounts and offers regarding the castles.
 
 <h2>User Experience (UX)</h2>
-
-The castle pages will display clear and readable information that will be intersting to the reader. The Castle pages will have some infromation about the castles and a stat box regarding age and sizes of the castle for example. The intention is that for people who are interested in these castles to go and see them for themselves so the pages will consist of Iframes to show the location on the castles on Google maps so the user can quickly locate the castle and see if it is easy to reach and in this site we will link to the main pages of the Trusts and Castle websites for users who wish to know more about the castles and what they have to offer. Also there will be a link directly to the bookings page for those who wish to see the castle of their choice.
-<br>
-All pages are to be responsive in design and will incourage the user to come back to the website in the future as the simplistic design should make it appealing and easy on the eye. Below are some of the attached wireframe templates that have been produced on how the website has been designed from day one, this will change ever so slightly over time as I get user feedback from people on what improvements can be made to add in the strength of British-Castles. Where staggered elements are to be displayed in a desktop environment, pages with these elements will respond to small screen sizes by creating a one line dimension principle, so that the elements are not scattered over the screen on a small device.
 
 <hr>
 
@@ -58,17 +55,59 @@ All pages are to be responsive in design and will incourage the user to come bac
 <br>
 
 <h2>Features</h2>
+<li>Responsive design on all media devices.</li>
+
 <hr>
-<li>Responsive design on all media devices</li>
-<li>Sign-up Page and Contact Us page for subscribers who would get offers and discount codes</li>
-<li>simplistic design with suggestive design features using hover elements</li>
+<h3><b>Header Features</b></h3>
+<li>Website name which is anchored to the home page as a link</li>
+<li>Navigation bar</li>
 
 <br>
 
-<h2>Later Features</h2>
+<h3><b>Footer Features</b></h3>
+<li>Secondary nav bar (without castles)</li>
+<li>Social media links</li>
+These will remain consistent throughout the website.
+
+<br>
+
+<h3><b>Home Page</b></h3>
+<li>Will have a hero image to draw the users interest</li>
+<li>A body of text explaining the website</li>
+<li>A list of castles below that are located on the website to explore</li>
+
+<br>
+
+<h3><b>Castle Pages</b></h3>
+<li>The castle name situated in the top left corner under the header</li>
+<li>The body of text that wraps around an image of the castle and a statistic table<li>
+<li>At the bottom of the text there is a Iframe box providing a location of the castle relating to the page</li>
+<li>Beneath the Iframe are functional links that take you to the website of the castles where you can find out more or book tickets</li>
+
+<br>
+
+<h3><b>Sign-Up Pages</b></h3>
+<li>A hero image to keep consistent design to the other hero image pages</li>
+<li>A header in the body stating you are on the sign up page</li>
+<li>A paragraph explaining the page and its purpose</li>
+<li>A form to be completed to sign-up for promotions and newsletters</li>
+
+<br>
+
+<h3><b>Contact-Us Pages</b></h3>
+<li>A hero image to keep consistent design to the other hero image pages</li>
+<li>A header in the body stating you are on the contact us page</li>
+<li>A paragraph explaining the page and its purpose</li>
+<li>A form to be completed to contact us with regards to any queries</li>
+
+<br>
+
+<h2>Features left to implement later</h2>
 <hr>
-<li>Later on the website would have a carosel of photos embedded in the castle pages giving the users more than one photo of the castles on display</li>
-<li>javascript features to bring selected carosel photos to the front of the screen above the page itself</li>
+<li>Later on the website would have a carosel of photos embedded in the castle pages giving the users more than one photo of the castles on display.</li>
+<li>Javascript features to bring selected carosel photos to the front of the screen above the page itself.</li>
+<li>Add more castle pages to the website.</li>
+<li>Add a sign-in page for customers to provide more control of email and newsletter settings.</li>
 
 <br>
 
@@ -121,6 +160,12 @@ All pages are to be responsive in design and will incourage the user to come bac
     <li><a href="http://jigsaw.w3.org/css-validator/validator$link" target="_blank">W3C Validator CSS</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-css-validator-results.pdf">results here</a></li>
     <li><a href="https://validator.w3.org/nu/" target="_blank">W3C Validator HTML</a> - <a href="https://github.com/GrantWils23/Portfolio-Project-1---HTML-CSS-Essentials/blob/main/assets/w3c-html-validator-index-page-results.pdf">results here</a></li>
 </ul>
+
+<br>
+
+<h3>Testing User Stories</h3>
+<h4>First Time User</h4>
+<p>As a user </p>
 
 <br>
 
