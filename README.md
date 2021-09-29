@@ -199,8 +199,19 @@ All pages are to be responsive in design and will incourage the user to come bac
 <br>
 
 <h3>Media</h3>
-<li>All images obtained where free open source, non-licenced images...</li>
-<li>The painting in the signup picture is a work of Joseph Mallord William Turner</li>
+The images were obtained from online resources and web pages below... They can be found from the links below:
+<li><a href="http://www.ecastles.co.uk/turner.html">The painting in the signup picture is a work of Joseph Mallord William Turner</a></li>
+<li><a href="https://www.loweoliver.co.uk/windsor-castle">Windsor Castle Image</a></li>
+<li><a href="https://warwick.ac.uk/fac/cross_fac/icsi-10/conferencedinner/">Warwick Castle Image</a></li>
+<li><a href="https://www.london-tickets.co.uk/tower-of-london/">Tower Of London Image</a></li>
+<li><a href="https://www.hevercastle.co.uk/news/hever-castle-encourages-visitors-to-go-to-leeds-castle/">Leeds Castle Image 1</a></li>
+<li><a href="https://www.visitkent.co.uk/visit-kent-blog/easter-in-kent-2021/">Leeds Castle Image 2</a></li>
+<li><a href="https://www.naoobvio.com/index.php/2019/08/20/5-castelos-nada-obvios-da-inglaterra-para-conhecer-em-kent/">Leeds Castle Image 3</a></li>
+<li><a href="https://www.visitlancashire.com/things-to-do/englands-historic-cities-lancaster-castle-app-p877150">Lancaster Castle Image 1</a></li>
+<li><a href="https://twitter.com/johnbarnesuk/status/1219258350577295364?lang=ar">Lancaster Castle 2</a></li>
+<li><a href="https://www.mentalfloss.com/article/647793/edinburgh-castle-facts">Edinburgh Castle Image</a></li>
+<li><a href="https://www.ticketsource.co.uk/whats-on/cardiff/cardiff-castle/cardiff-castle-general-admission/e-ydvmqx">Cardiff Castle Image</a></li>
+
 
 <br>
 
